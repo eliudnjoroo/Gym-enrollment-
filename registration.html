@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <html lang="en">
+    <head>
+    <meta charset="utf-8" />
+    <title>Muscle Gym Joining Form</title>
+  </head>
+<body>
+    <div admission-form>
+        <!__we create the form here__>
+        <h2>gym member registration</h2>
+        <form>
+            Name: <input type="text"placeholder="firstname"/>
+            <input type="text"placeholder="lastname"/><br/><br/>
+            phone number:  <input type = "tel"/><br/><br/>
+            Email:  <input type = "email"/><br/><br/>
+            age:  <input type ="number"/><br/><br/>
+            date of birth: <input type = "date"/><br/><br/>
+            gender: <input type = "radio" name = "gender" value = "malw"/>male
+            <input type = "radio" name = "gender" value = "female"/>female<br/><br/>
+             <fieldset>
+            <legend>Membership details</legend>
+            Joining date: <input type = "date"/><br/>
+            Membership Type: 
+            <input type="radio"name="membership"value="basic"/> Basic(gym)
+            <input type="radio"name="membership"value="gold"/> Gold(gym+cardio)
+            <input type="radio"name="membership"value="premium"/> premium(cardio+crossfit+gym)<br/>
+            Duration:
+            <select>
+                <option value="1">1 month</option>
+                <option value="3">3 month</option>
+                <option value="6">6 month</option>
+                <option value="12">12 month</option>
+            </select><br/><br/>
+            Are u interested in any of the following?<br/>
+            <input type ="checkbox"name ="add-on"value="yogga"/> yoga
+            <input type ="checkbox"name ="add-on"value="free-pt"/> free pt trail
+            <input type ="checkbox"name ="add-on"value="zumba"/> zumba
+            <input type ="checkbox"name ="add-on"value="piloxing"/> piloxing
+            <input type ="checkbox"name ="add-on"value="diet"/> diet pkan
+        </fieldset>
+            <button type="submit">Submit</button>
+            <button type = "reset>">reset</button>
+        </form>
+        <a href="/storage/emulated/0/gym/src/index.html">Back</a>
+    </div>
+</body>
+</html>
